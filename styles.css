@@ -1,0 +1,173 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+/* Header and Navigation */
+header {
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url("https://images.unsplash.com/photo-1614481327033-68e5df399653?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFzdGVsJTIwYmx1ZXxlbnwwfHwwfHx8MA%3D%3D") no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #f39c12;
+    text-shadow: 2px 2px #333;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #f39c12;
+    text-shadow: 1px 1px #333;
+}
+
+/* About Section */
+#about {
+    padding: 2rem;
+    text-align: center;
+    background: #ffffff;
+}
+
+#about img {
+    width: 45%;
+    height: auto;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+/* Products Section */
+#products {
+    padding: 2rem;
+    background: #fff;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-gallery img {
+    width: 45%;
+    height: auto;
+    margin: 1rem;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.product-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#contact form input, #contact form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact form button {
+    background: #4b6cb7;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background: #182848;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.social-media a:hover {
+    color: #4b6cb7;
+}
